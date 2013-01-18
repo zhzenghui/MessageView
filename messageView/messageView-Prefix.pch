@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'messageView' target in the 'messageView' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define KmessageText @"messageText"
+#define KmessageType @"messageType"
+#define KmessageTime @"messageTime"
+#define KmessageIsRead @"messageIsRead"
+#define KmessageIsMe @"messageIsMe"
+#define KmessageImage @"messageImage"
+
+#define KmessageFontSise  17
+#define KmessageWidth  215
+
+#define KScreenWidth    [UIScreen mainScreen].bounds.size.width
